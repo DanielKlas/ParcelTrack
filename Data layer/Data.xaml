@@ -1,0 +1,36 @@
+﻿<Window x:Class="ParcelTrack.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ParcelTrack"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtbox_street" HorizontalAlignment="Left" Margin="119,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBox x:Name="txtbox_postcode" HorizontalAlignment="Left" Margin="119,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBox x:Name="txtbox_receiverName" HorizontalAlignment="Left" Margin="119,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBox x:Name="txtbox_senderName" HorizontalAlignment="Left" Margin="119,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <Button x:Name="btn_add_parcel" Content="Add this parcel" HorizontalAlignment="Left" VerticalAlignment="Top" Height="22" Width="110" Click="Button_Parcel_Click" Margin="148,308,0,0" RenderTransformOrigin="0.391,-0.203"/>
+        <TextBlock HorizontalAlignment="Left" Margin="119,27,0,0" Text="Street number and name" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.122,-0.561"/>
+        <TextBlock HorizontalAlignment="Left" Margin="119,115,0,0" Text="Package receiver name" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.122,-0.561"/>
+        <TextBlock HorizontalAlignment="Left" Margin="119,71,0,0" Text="Postcode" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.122,-0.561"/>
+        <TextBlock HorizontalAlignment="Left" Margin="119,207,0,0" Text="Sender name" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.122,-0.561"/>
+        <TextBlock HorizontalAlignment="Left" Margin="533,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Height="15"><Run Text="Courier name"/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="txtbox_courierName" HorizontalAlignment="Left" Margin="532,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <TextBlock HorizontalAlignment="Left" Margin="533,129,0,0" Text="Courier type" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+        <TextBlock HorizontalAlignment="Left" Margin="533,190,0,0" Text="Capacity (customise)" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="533,234,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="15"><Run Text="Area"/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="txtbox_courierCapacity" HorizontalAlignment="Left" Margin="532,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+        <TextBox x:Name="txtbox_courierAreas" HorizontalAlignment="Left" Margin="532,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+        <Button x:Name="btn_AddCourier" Content="Add courier" HorizontalAlignment="Left" Margin="562,286,0,0" VerticalAlignment="Top" Height="22" Width="96" Click="Button_Click"/>
+        <ComboBox x:Name="combo_courierType" HorizontalAlignment="Left" Margin="532,150,0,0" VerticalAlignment="Top" Width="156" Height="25" SelectionChanged="combo_courierType_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="534,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Height="15"><Run Text="Courier surname"/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="txtbox_courierSurname" HorizontalAlignment="Left" Margin="533,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <TextBox x:Name="txtbox_receiverSurname" HorizontalAlignment="Left" Margin="119,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBlock HorizontalAlignment="Left" Margin="119,162,0,0" Text="Package receiver surname" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.122,-0.561"/>
+        <TextBox x:Name="txtbox_senderSurname" HorizontalAlignment="Left" Margin="119,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168"/>
+        <TextBlock HorizontalAlignment="Left" Margin="119,253,0,0" Text="Sender surname" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-0.122,-0.561"/>
+
+    </Grid>
+</Window>

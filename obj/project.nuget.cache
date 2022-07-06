@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "94sX0c0btTs7d8mRbX3t9i5ZPhS/iTzVT2OJW5J7VufeP0vB8TnC2o4sblfEOzFWZbW+QtOIt3vV54CMQnJmiw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danie\\OneDrive - Edinburgh Napier University\\OOP Coursework\\ParcelTrack\\ParcelTrack.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danie\\.nuget\\packages\\csvhelper\\27.2.1\\csvhelper.27.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+[ 06/12/2021 16:33:43 ] Successfully added a new courier with ID 1
+[ 06/12/2021 16:34:04 ] Successfully added a new courier with ID 2
+[ 06/12/2021 16:34:38 ] Successfully added a new courier with ID 3
+[ 06/12/2021 16:38:08 ] Successfully added a new parcel with ID 1 and assigned to courier with ID 3
+[ 06/12/2021 16:41:30 ] Successfully added a new parcel with ID 2 and assigned to courier with ID 1
+[ 06/12/2021 16:43:36 ] Successfully added a new parcel with ID 3 and assigned to courier with ID 1
+[ 06/12/2021 16:46:15 ] Successfully added a new parcel with ID 4 and assigned to courier with ID 1
+[ 06/12/2021 16:46:58 ] Successfully added a new parcel with ID 5 and assigned to courier with ID 1
+[ 06/12/2021 16:47:27 ] Successfully added a new parcel with ID 6 and assigned to courier with ID 1
+[ 06/12/2021 16:47:51 ] Successfully added a new parcel with ID 7 and assigned to courier with ID 1
+[ 06/12/2021 17:29:51 ] Successfully added a new courier with ID 4
+[ 09/12/2021 13:31:18 ] Successfully transferred parcel 1 from courier: 3to courier: 1

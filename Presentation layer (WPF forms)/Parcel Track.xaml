@@ -1,0 +1,28 @@
+﻿<Window x:Class="ParcelTrack.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ParcelTrack"
+        mc:Ignorable="d"
+        Title="Parcel Track" Height="300" Width="450">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="22,98,0,0" Text="Delivery management" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="243,9,0,0" Text="Courier management" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="Show all couriers" HorizontalAlignment="Left" Margin="253,158,0,0" VerticalAlignment="Top" Height="30" Width="121" Click="btn_ShowAllCouriers"/>
+        <TextBlock HorizontalAlignment="Left" Margin="20,10,0,0" Text="Parcel management" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Content="Add parcel / courier" HorizontalAlignment="Left" Margin="20,39,0,0" VerticalAlignment="Top" Height="31" Width="121" Click="btn_AddParcelOrCourier"/>
+        <Button Content="Transfer parcel" HorizontalAlignment="Left" Margin="253,122,0,0" VerticalAlignment="Top" Height="31" Width="121" Click="btn_TransferParcel"/>
+        <Button Content="Save &amp; Exit" HorizontalAlignment="Left" Margin="253,193,0,0" VerticalAlignment="Top" Height="30" Width="121" Click="btn_SaveExit"/>
+        <Button x:Name="btn_displayDelivery" Content="Display deliveries" HorizontalAlignment="Left" Margin="20,154,0,0" VerticalAlignment="Top" Height="32" Width="121" Click="btn_DisplayDelivery"/>
+        <TextBox x:Name="txtbox_courierDetails" HorizontalAlignment="Left" Margin="85,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="62"/>
+        <Label Content="Courier ID:" HorizontalAlignment="Left" Margin="14,123,0,0" VerticalAlignment="Top"/>
+        <Label Content="Target courier ID:" HorizontalAlignment="Left" Margin="224,32,0,0" VerticalAlignment="Top"/>
+        <Label Content="Destination courier ID:" HorizontalAlignment="Left" Margin="224,58,0,0" VerticalAlignment="Top"/>
+        <Label Content="Parcel ID:" HorizontalAlignment="Left" Margin="224,84,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtbox_targetID" HorizontalAlignment="Left" Margin="361,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39"/>
+        <TextBox x:Name="txtbox_destinationID" HorizontalAlignment="Left" Margin="361,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39"/>
+        <TextBox x:Name="txtbox_parcelTransferID" HorizontalAlignment="Left" Margin="361,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39"/>
+
+    </Grid>
+</Window>
