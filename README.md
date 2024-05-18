@@ -13,3 +13,4 @@ Empty .csv files will be created upon launch.
 - Inheritance
 - Writing meaningful log files
 
+![microphone-icon-1638x2048-kwxywbi7](https://github.com/DanielKlas/ParcelTrack/assets/47280910/c0a722c2-1229-4854-b9a5-1bfd203a93dc)
